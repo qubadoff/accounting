@@ -15,12 +15,7 @@ class UsersController extends Controller
      */
     public function index()
     {
-
-        $users = User::all();
-
-
-
-           return view('dashboard/users', compact('users'));
+           return view('dashboard/users');
     }
 
     /**
@@ -88,4 +83,11 @@ class UsersController extends Controller
     {
         //
     }
+
+    public function getData()
+    {
+        $users = User::select(['id', 'name', 'email', 'created_at', 'updated_at']);
+        //return Datatables::if($users)->make();
+    }
+
 }

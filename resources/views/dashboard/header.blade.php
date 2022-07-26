@@ -148,7 +148,7 @@
               </a>
             </li>
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="/dashboard/account">
+              <a class="dropdown-item d-flex align-items-center" href="/dashboard/accounts">
                 <i class="bi bi-gear"></i>
                 <span>Account Settings</span>
               </a>
