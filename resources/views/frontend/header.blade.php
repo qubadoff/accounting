@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BurnFinance</title>
-  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="shortcut icon" href="{{asset('/')}}assets_frontend/images/favicon.png" />
   <!-- GOOGLE WEB FONTS -->
   <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -43,7 +43,7 @@
           </div>
           <div class="col-sm-6">
             <ul class="toplinks">
-              <li>MON - FRI 09:00 - 20:00</li>
+              <li>Burncode Systems</li>
               {{-- <li><a href="#search"><i class="fa fa-search"></i></a></li>
               <li><a href="shop-cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="badge">2</span></a></li> --}}
 
@@ -77,13 +77,13 @@
               <div class="col-sm-9">
                 <nav id="desktop-menu">
                 <ul class="sf-menu" id="navigation">
-                    <li class="current"><a href="#">Home</a>
+                    <li><a href="/">Home</a>
                     </li>
                     <li><a href="/services">Services</a>
                     </li>
                     <li><a href="/contact">Contact</a>
                     </li>
-                    <li><a href="/dashboard">Dashboard</a>
+                    <li><a href="/dashboard"><b>Dashboard</b></a>
                     </li>
                   </ul>
                 </nav>

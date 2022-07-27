@@ -1,13 +1,19 @@
 @include('frontend.header')
 
  <!-- PAGE HEADER -->
-    <div id="page-header" class="services3">
-   <div class="title-breadcrumbs">
-   <h1>SERVICES</h1>
-   </div>
-
+ <div id="page-header" class="contact">
+    <div class="title-breadcrumbs">
+    <h1>Services</h1>
+    <div class="thebreadcumb">
+     <ul class="breadcrumb">
+         <li><a href="/">Home</a></li>
+         <li class="active">Services</li>
+     </ul>
     </div>
-    <!-- END OF PAGE HEADER -->
+    </div>
+ 
+     </div>
+     <!-- END OF PAGE HEADER -->
   </div>
 
  <section class="introtext">

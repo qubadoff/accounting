@@ -1,12 +1,12 @@
 @include('frontend.header')
 
  <!-- PAGE HEADER -->
-    <div id="page-header" class="contact">
+   <div id="page-header" class="contact">
    <div class="title-breadcrumbs">
    <h1>CONTACT</h1>
    <div class="thebreadcumb">
     <ul class="breadcrumb">
-        <li><a href="#">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li class="active">Contact</li>
     </ul>
    </div>

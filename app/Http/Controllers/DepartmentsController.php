@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\DepartmentsModel;
 use Illuminate\Http\Request;
+
+use Yajra\Datatables\Datatables as Datatable;
 
 class DepartmentsController extends Controller
 {
@@ -11,9 +14,10 @@ class DepartmentsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('dashboard/departments');
+
+    public function index(Request $request)
+    { 
+        return view('dashboard.departments');
     }
 
     /**

@@ -1,7 +1,7 @@
   <div class="copyright">
     <div class="row">
       <div class="col-sm-12">
-        <p class="text-center">  BurnFinance </p>
+        <p class="text-center">  BurnFinance - 2022 </p>
       </div>
     </div>
   </div>

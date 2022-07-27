@@ -19,10 +19,10 @@
 
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title"><button type="button" class="btn btn-primary">Add Departments</button></h5>
+            <h5 class="card-title"><button type="button" onclick="add()" class="btn btn-primary">Add Departments</button></h5>
             
             <!-- Table with stripped rows -->
-            <table class="table datatable">
+            <table class="table datatable data-table">
               <thead>
                 <tr>
                   <th scope="col">#</th>
@@ -32,15 +32,6 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td> Maliye </td>
-                  <td>Designer</td>
-                  <td>
-                    <button type="button" class="btn btn-success"><i class="bi bi-check-circle"></i></button>
-                    <button type="button" class="btn btn-danger"><i class="bi bi-exclamation-octagon"></i></button>
-                </td>
-                </tr>
               </tbody>
             </table>
             <!-- End Table with stripped rows -->

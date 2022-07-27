@@ -29,6 +29,7 @@ Route::prefix('dashboard')->middleware('UserControl')->group(function() {
     Route::resource('/accounts', AccountController::class);
     Route::resource('/users', UsersController::class);
     Route::resource('/departments', DepartmentsController::class);
+    Route::get('/departments/listing', [DepartmentsController::class, 'getinfo'])->name('departments.listing');
     Route::get('/balance', function () { return view('dashboard.balance'); });
     Route::get('/pages/faqs', function () { return view('pages.faqs'); });
 
